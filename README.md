@@ -38,6 +38,7 @@ preprocessors:
         as_image: true
         params:
             no-title: true
+        `fix_svg_size`: false
 ```
 
 `cache_dir`
@@ -93,7 +94,7 @@ Here’s the diagram:
 </bpmn>
 ```
 
-You can set override preprocessor parameters in the tag options. For example if the format for diagrams is set to `png` in foliant.yml and you need one of your diagrams to render in svg, override the `format` option in the tag:
+You can override preprocessor parameters in the tag options. For example if the format for diagrams is set to `png` in foliant.yml and you need one of your diagrams to render in svg, override the `format` option in the tag:
 
 ```html
 SVG diagram:
