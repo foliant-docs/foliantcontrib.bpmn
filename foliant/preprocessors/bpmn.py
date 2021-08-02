@@ -12,8 +12,8 @@ from subprocess import PIPE
 from subprocess import STDOUT
 from subprocess import run
 
-from foliant.preprocessors.utils.combined_options import CombinedOptions
-from foliant.preprocessors.utils.combined_options import Options
+from foliant.contrib.combined_options import CombinedOptions
+from foliant.contrib.combined_options import Options
 from foliant.preprocessors.utils.preprocessor_ext import BasePreprocessorExt
 from foliant.preprocessors.utils.preprocessor_ext import allow_fail
 
